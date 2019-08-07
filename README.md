@@ -23,5 +23,6 @@
 * установлен прелоадер для сайта
 * созданы таймлайн, контейнеры изображений и другие элементы дизайна
 * добавлена интерактивная карта с помощью сервиса <a href="https://tech.yandex.ru/maps/?p=realty">API Яндекс.Карт</a>
+* улучшена скорость загрузки сайта (<a href="https://developers.google.com/speed/pagespeed/insights/">PageSpeed Insights</a>)
 * валидная вёрстка в соответствии с <a href="https://validator.w3.org/">Markup Validation Service</a>
 * кроссбраузерность: IE10+, Chrome, Firefox, Opera, Safari
