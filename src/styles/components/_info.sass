@@ -1,0 +1,71 @@
+.info
+  display: flex
+  justify-content: space-between
+
+.logo
+  display: flex
+  flex-direction: column
+  color: #ffffff
+
+  &__title
+    text-transform: uppercase
+    font-size: 18px
+    line-height: 1.5em
+
+  &__text
+    font-size: 14px
+    color: #bdbdbd   
+    margin-bottom: 45px 
+
+  &__copy
+    font-size: 12px
+
+  &__link
+    color: #757575 
+
+.payment
+
+  &__icon
+    width: 70px
+    color: #fafafa
+    text-align: center
+
+.social
+  text-align: right
+
+  &__phone
+    display: block
+    text-transform: uppercase
+    font-size: 18px
+    color: #ffffff
+
+  &__email
+    display: block
+    margin-top: 10px
+    margin-bottom: 20px
+
+  &__link
+    color: #bdbdbd  
+    font-size: 14px
+    border-bottom: 1px solid #bdbdbd
+
+  &__icon
+    color: #fafafa  
+    margin-right: 5px
+
+    &:hover
+      color: #bdbdbd
+  
+  &-last
+    margin-right: 0
+
+@media (max-width: 930px)
+  .info
+    justify-content: center
+    text-align: center
+  .payment,
+  .social 
+    display: none
+
+
+      

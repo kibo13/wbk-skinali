@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "proxima_novalight";
+  src: url("../fonts/proximanova/light/proximanova-light-webfont.woff2")
+      format("woff2"),
+    url("../fonts/proximanova/light/proximanova-light-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "proxima_novasemibold";
+  src: url("../fonts/proximanova/semibold/proximanova-semibold-webfont.woff2")
+      format("woff2"),
+    url("../fonts/proximanova/semibold/proximanova-semibold-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@mixin bold {
+  font-family: 'proxima_novasemibold', sans-serif;
+}
+
+@mixin light {
+  font-family: 'proxima_novalight', sans-serif;
+}

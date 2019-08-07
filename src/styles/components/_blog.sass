@@ -1,0 +1,66 @@
+.blog
+  margin-bottom: -80px
+  &__article
+    display: flex
+    justify-content: space-between
+    margin-bottom: 50px
+  
+  &__link
+    position: relative
+    font-size: 14px
+    color: $line-color
+    transition: .3s
+
+    &::after 
+      content: ''
+      bottom: 0
+      left: 0
+      position: absolute
+      width: 100%
+      height: 1px
+      background: $line-color
+      transition: .3s
+      transform: scaleX(0)
+
+    &:hover::after 
+      transform: scaleX(1)
+  
+  &__list 
+    display: grid
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr))
+    grid-gap: 20px
+
+  &__item 
+    display: flex
+    flex-direction: column
+    width: 100%
+    height: auto
+    box-shadow: $small-shadow
+  
+  &__img
+    width: 100%
+    height: 170px
+  
+  &__text
+    display: block
+    font-size: 14px
+    line-height: 60px
+    background: #fff  
+    height: 60px
+    transition: .3s  
+
+    &:hover
+      cursor: pointer
+      font-weight: bold
+
+@media (max-width: 1024px)
+  .blog
+    &__article
+      flex-direction: column
+      justify-content: flex-start
+      align-items: flex-start
+    
+    &__title
+      width: 250px
+      text-align: left
+      margin-bottom: 5px

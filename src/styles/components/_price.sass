@@ -1,0 +1,68 @@
+.price
+  margin-top: 70px
+  margin-bottom: 20px
+
+  &__list
+    display: grid
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr))
+    grid-gap: 20px
+  
+  &__item
+    display: flex
+    flex-direction: column
+    width: 100%
+    height: auto
+    box-shadow: $small-shadow
+
+  &__img 
+    width: 100%
+    height: 170px
+    position: relative
+    overflow: hidden
+
+    & img 
+      width: 100%
+      height: 100%
+      transition: .3s
+
+    &:hover 
+      cursor: pointer
+
+      & img 
+        transform: scale(1.2)
+
+      .price__btn
+        opacity: 1
+        transform: scale(1)
+  
+  &__info 
+    display: flex
+    justify-content: space-around
+    height: 50px
+    line-height: 50px
+    font-size: 14px
+    font-weight: lighter
+  
+  &__value 
+    font-weight: bold
+
+    &::after 
+      content: '2'
+      vertical-align: top
+      line-height: 40px
+      font-size: 10px
+  
+  &__btn
+    display: flex
+    align-items: center
+    justify-content: center
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    opacity: 0
+    transform: scale(0)
+    transition: .3s
+    transition-delay: .1s
+    background: rgba(63, 81, 181, 0.2)

@@ -1,0 +1,35 @@
+.help
+  display: flex
+  align-items: flex-end
+  justify-content: center
+
+  &__title
+    margin-right: 50px
+
+  &__link
+    position: relative
+    display: block
+    color: $line-color
+    transition: .3s
+
+    &::after
+      content: ''
+      bottom: -5px
+      left: 0
+      position: absolute
+      width: 100%
+      height: 1px
+      background: $line-color
+      transition: .3s
+      transform: scaleX(0)    
+
+    &:hover::after 
+      transform: scaleX(1)  
+    
+@media (max-width: 600px)
+  .help
+    flex-direction: column
+    align-items: center
+    &__title
+      margin-right: 0
+      margin-bottom: 5px

@@ -1,0 +1,40 @@
+{
+  "name": "optimalpackagehtml",
+  "version": "1.0.0",
+  "description": "a simple template for html coding",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kibo13/OptimalPackageHTML.git"
+  },
+  "keywords": [
+    "gulp"
+  ],
+  "author": "Boris Kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kibo13/OptimalPackageHTML/issues"
+  },
+  "homepage": "https://github.com/kibo13/OptimalPackageHTML#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "del": "^5.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-cache": "^1.1.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^6.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify-es": "^1.0.4"
+  },
+  "dependencies": {
+    "jquery.maskedinput": "^1.4.1",
+    "slick-carousel": "^1.8.1",
+    "zurb-twentytwenty": "^0.1.1"
+  }
+}

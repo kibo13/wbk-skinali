@@ -1,0 +1,40 @@
+.contact
+  margin-top: 70px
+  &__list
+    display: flex
+    width: 90%
+    justify-content: space-around
+    margin: auto
+  &__item
+    flex-basis: 33.33%
+    display: flex
+    flex-direction: column
+    align-items: center
+  &__img 
+    font-size: 25px
+    margin-bottom: 15px
+    color: $line-color
+    width: 50px
+    height: 50px
+    line-height: 40px
+  &__text,
+  &__link
+    font-size: 16px
+    color: $text-color
+
+@media (max-width: 1043px) 
+  .contact
+    &__text-sw
+      width: 160px
+      line-height: 1.25em
+
+@media (max-width: 830px)
+  .contact
+    &__list
+      flex-direction: column
+    &__item
+      margin-bottom: 40px
+    &__img
+      margin-bottom: 0
+
+
