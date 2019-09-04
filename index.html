@@ -27,31 +27,31 @@
     <div class="wrap wrap-bg">
       <nav class="navbar">
         <div class="container">
-          <div class="menu">
+          <ul class="menu">
             <input type="checkbox" id="checkbox" class="menu__checkbox" />
             <label for="checkbox" class="menu__btn">
-              <span class="menu__icon"></span>
+              <div class="menu__icon"></div>
             </label>
 
-            <div class="menu__logo">
+            <li class="menu__logo">
               <span class="menu__title">Фабрика скинали №1</span>
               <span class="menu__text">ведущий производитель скинали</span>
-            </div>
+            </li>
 
-            <div class="menu__work">
+            <li class="menu__work">
               <a class="menu__title" href="tel:+79121234567">+7 912 123-45-67</a>
               <span class="menu__text menu__text-pos">без выходных 9-21</span>
-            </div>
+            </li>
 
-            <div class="menu__contact">
+            <li class="menu__contact">
               <a class="menu__title" href="tel:+74991234567">+7 499 123-45-67</a>
               <a class="menu__text menu__text-pos" href="mailto:info@mail.ru">info@mail.ru</a>
-            </div>
+            </li>
 
             <a href="#offer" class="btn btn-outline">Получить консультацию</a>
             
-            <div class="menu__list">
-              <ul class="menu__box">
+            <ul class="menu__list">
+              <div class="menu__box">
                 <li class="menu__item active">
                   <a href="#home" class="menu__link">Главная</a>
                 </li>
@@ -76,9 +76,9 @@
                 <li class="menu__item">
                   <a href="#contact" class="menu__link">Контакты</a>
                 </li>
-              </ul>
-            </div>
-          </div>
+              </div>
+            </ul>
+          </ul>
           <!-- /.info -->
         </div>
         <!-- /.container -->
@@ -109,18 +109,18 @@
               <form action="#" class="form offer__form">
                 <div class="form__row">
                   <div class="form__group">
-                    <label class="form__label">Вид стекла</label>
+                    <label for="" class="form__label">Вид стекла</label>
                     <select>
                       <option value="">С печатью</option>
                       <option value="">Без печати</option>
                     </select>
                   </div>
                   <div class="form__group">
-                    <label class="form__label">Ширина, см</label>
+                    <label for="" class="form__label">Ширина, см</label>
                     <input type="text" class="form__text" />
                   </div>
                   <div class="form__group">
-                    <label class="form__label">Высота, см</label>
+                    <label for="" class="form__label">Высота, см</label>
                     <input type="text" class="form__text" />
                   </div>
                 </div>
@@ -731,7 +731,7 @@
           <div class="logo">
             <span class="logo__title">Фабрика скинали №1</span>
             <span class="logo__text">ведущий производитель скинали</span>  
-            <span class="logo__copy"><a href="#" class="logo__link">&copy; Фабрика скинали №1</a></span>
+            <span class="logo__copy"><a href="#" class="logo__link">&copy; Фабрика скинали №1</span>
           </div>
           <div class="payment">
             <i class="fab fa-cc-apple-pay fa-3x payment__icon"></i>
@@ -740,9 +740,8 @@
             <i class="fab fa-cc-visa fa-3x payment__icon"></i>
           </div>
           <div class="social">
-            <p><a class="social__phone" href="tel:+74991234567">+7 499 123-45-67</a></p>
-            <p class="social__email"><a class="social__link" href="mailto:info@mail.ru">info@mail.ru</a></p>      
-
+            <span><a class="social__phone" href="tel:+74991234567">+7 499 123-45-67</a></span>
+            <span class="social__email"><a class="social__link" href="mailto:info@mail.ru">info@mail.ru</a></span>                     
             <div class="social__list">
               <a href="https://github.com/kibo13/kibo13.github.io"><i class="fab fa-twitter-square fa-2x social__icon"></i></a>
               <a href="https://github.com/kibo13/kibo13.github.io"><i class="fab fa-pinterest-square fa-2x social__icon"></i></a>
